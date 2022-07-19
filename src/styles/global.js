@@ -7,9 +7,13 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    width: 100vw;
-    height: 100vh;
-    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #222;
   }
 `;
 
