@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   height: 59px;
-  background-color: #f0f2f5;
+  background-color: #232c3d;
   padding: 10px 16px;
   display: flex;
   align-items: center;
@@ -33,6 +33,7 @@ export const Name = styled.span`
   font-size: 18px;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: white;
 `;
 
 export const Avatar = styled.img`

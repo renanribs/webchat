@@ -6,6 +6,8 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, db } from "./services/firebase";
 import Login from "./components/Login";
 import Loading from "./components/Loading";
+import NavbarHeader from "./components/Navbar";
+import SidebarIcons from "./components/SidebarIcons";
 
 const App = () => {
   const [user, loading] = useAuthState(auth);
@@ -25,10 +27,14 @@ const App = () => {
   if (!user) return <Login />;
 
   return (
-    <C.Container>
-      <Sidebar setUserChat={setUserChat} userChat={userChat} />
-      <Chat userChat={userChat} />
-    </C.Container>
+    <>
+      <NavbarHeader />
+      <C.Container>
+        <SidebarIcons />
+        <Sidebar setUserChat={setUserChat} userChat={userChat} />
+        <Chat userChat={userChat} />
+      </C.Container>
+    </>
   );
 };
 

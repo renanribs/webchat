@@ -1,15 +1,15 @@
 import React from "react";
 import * as C from "./styles";
-import { MdMessage } from "react-icons/md";
+import Logo from "./logo.svg";
 
 const Default = () => {
   return (
     <C.Container>
-      <MdMessage />
-      <C.Title>Chat App</C.Title>
+      <img src={Logo} alt="Logo" />
+
       <C.Info>
-        Agora você pode enviar e receber mensagens sem precisar manter seu
-        celular conectado à internet.
+        Tudo o que seu time precisa para agilizar e simplificar o atendimento no
+        seu WhatsApp, Facebook, Instagram e Chat para Site
       </C.Info>
     </C.Container>
   );

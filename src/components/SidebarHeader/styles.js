@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   height: 59px;
-  background-color: #f0f2f5;
+  background-color: #232c3d;
   padding: 10px 16px;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@ export const Avatar = styled.img`
 
 export const Options = styled.div`
   display: flex;
-  gap: 10px;
+  gap: 40px;
 
   svg {
     width: 24px;

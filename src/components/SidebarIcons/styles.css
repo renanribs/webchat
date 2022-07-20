@@ -1,0 +1,35 @@
+.sidebar {
+  height: 100%;
+  width: 70px;
+
+  top: 0;
+  left: 0;
+  background-color: #232c3d;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 30px 16px;
+  text-decoration: none;
+  font-size: 23px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 20px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}

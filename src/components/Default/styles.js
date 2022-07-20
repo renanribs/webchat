@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  background-color: #f8f8f8;
+  background-color: #232c3d;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,4 +25,5 @@ export const Info = styled.span`
   font-size: 18px;
   text-align: center;
   max-width: 500px;
+  color: white;
 `;

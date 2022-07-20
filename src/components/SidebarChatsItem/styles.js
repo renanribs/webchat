@@ -8,7 +8,7 @@ export const Container = styled.div`
   cursor: pointer;
 
   &:hover {
-    background-color: #f0f2f5;
+    background-color: #232c3d;
   }
 
   svg {
@@ -21,7 +21,7 @@ export const Container = styled.div`
   }
 
   &.active {
-    background-color: #f0f2f5;
+    background-color: #232c3d;
   }
 `;
 
@@ -29,6 +29,7 @@ export const Name = styled.span`
   font-size: 18px;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: white;
 `;
 
 export const Avatar = styled.img`

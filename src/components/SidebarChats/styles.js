@@ -11,7 +11,7 @@ export const Container = styled.div`
 
   &::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(50, 61, 81, 0.2);
   }
 `;
 

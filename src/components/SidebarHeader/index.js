@@ -1,6 +1,6 @@
 import React from "react";
 import * as C from "./styles";
-import { MdDonutLarge, MdChat, MdMoreVert } from "react-icons/md";
+import { MdForum, MdChat, MdMailOutline } from "react-icons/md";
 import * as EmailValidator from "email-validator";
 import { auth, db } from "../../services/firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
@@ -44,9 +44,9 @@ const SidebarHeader = ({ setUserChat }) => {
         onClick={() => [auth.signOut(), setUserChat(null)]}
       />
       <C.Options>
-        <MdDonutLarge />
+        <MdForum />
         <MdChat onClick={handleCreateChat} />
-        <MdMoreVert />
+        <MdMailOutline />
       </C.Options>
     </C.Container>
   );
