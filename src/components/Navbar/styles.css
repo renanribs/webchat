@@ -2,6 +2,7 @@
   background-color: #232c3d;
   overflow: hidden;
   border-color: aliceblue;
+  position: sticky;
 }
 
 .topnav a {
@@ -10,9 +11,36 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 25px;
 }
 
 .topnav img.logo {
   max-width: 30px;
+}
+
+.header-right {
+  font-size: 30px;
+  float: right;
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+  align-items: center;
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 5px;
+}
+
+.btn-success {
+  background-color: #fece5b;
+  outline: none;
+  color: rgb(14, 14, 14);
+}
+
+.btn-success:hover {
+  background-color: rgb(216, 172, 25);
 }

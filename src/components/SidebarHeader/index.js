@@ -1,6 +1,11 @@
 import React from "react";
 import * as C from "./styles";
-import { MdForum, MdChat, MdMailOutline } from "react-icons/md";
+import {
+  MdForum,
+  MdChat,
+  MdMailOutline,
+  MdPowerSettingsNew,
+} from "react-icons/md";
 import * as EmailValidator from "email-validator";
 import { auth, db } from "../../services/firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
@@ -39,10 +44,11 @@ const SidebarHeader = ({ setUserChat }) => {
 
   return (
     <C.Container>
-      <C.Avatar
-        src={user?.photoURL}
-        onClick={() => [auth.signOut(), setUserChat(null)]}
-      />
+      <C.Avatar>
+        <MdPowerSettingsNew
+          onClick={() => [auth.signOut(), setUserChat(null)]}
+        />
+      </C.Avatar>
       <C.Options>
         <MdForum />
         <MdChat onClick={handleCreateChat} />

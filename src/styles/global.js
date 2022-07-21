@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-
 const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
@@ -7,11 +6,13 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 80vh;
     font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #2f3a4e;
+    
   }
+ 
 `;
 
 export default GlobalStyle;

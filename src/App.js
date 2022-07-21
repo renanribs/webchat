@@ -6,7 +6,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, db } from "./services/firebase";
 import Login from "./components/Login";
 import Loading from "./components/Loading";
-import NavbarHeader from "./components/Navbar";
+import NavbarHeader from "./components/Navbar/index";
 import SidebarIcons from "./components/SidebarIcons";
 
 const App = () => {
