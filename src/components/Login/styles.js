@@ -11,10 +11,20 @@ export const Container = styled.div`
   margin: 200px auto;
 
   min-height: 300px;
-  border: 4px solid #1298a5;
-  padding: 2px 1em 0 1em;
+  border: 0.2rem solid #1298a5;
+  padding: 1rem 1em 0 1em;
   border-radius: 10px;
-  background-color: #2f3a4e;
+  background-color: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solig rgba(255, 255, 255, 0.18);
+  border-radius: 32px;
 `;
 
 export const Button = styled.button`

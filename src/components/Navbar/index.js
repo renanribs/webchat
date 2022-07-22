@@ -20,7 +20,7 @@ const NavbarHeader = () => {
 
         <a href="#news">POLICHAT</a>
         <div class="header-right">
-          <a href="button">
+          <a href="#button">
             {" "}
             <button class="btn btn-success" type="submit">
               Indique e ganhe
@@ -35,13 +35,13 @@ const NavbarHeader = () => {
           <a href="#sound">
             <MdOutlineVolumeUp />
           </a>
-          <a href="noturno" class="icons">
+          <a href="#noturno" class="icons">
             <MdBrightness2 />
           </a>
-          <a href="noturno" class="icons">
+          <a href="#on-off" class="icons">
             <MdOutlineToggleOff />
           </a>
-          <a href="noturno" class="icons">
+          <a href="#claro" class="icons">
             <MdBrightness5 />
           </a>
         </div>
