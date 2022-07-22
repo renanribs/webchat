@@ -35,6 +35,22 @@
   border-radius: 5px;
 }
 
+@media screen and (max-width: 600px) {
+  .toggler {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .toggler2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .toggler3 {
+    display: none;
+  }
+}
+
 .btn-success {
   background-color: #fece5b;
   outline: none;

@@ -22,7 +22,7 @@ const NavbarHeader = () => {
         <div class="header-right">
           <a href="#button">
             {" "}
-            <button class="btn btn-success" type="submit">
+            <button class="btn btn-success toggler toggler3" type="submit">
               Indique e ganhe
             </button>
           </a>
@@ -35,13 +35,13 @@ const NavbarHeader = () => {
           <a href="#sound">
             <MdOutlineVolumeUp />
           </a>
-          <a href="#noturno" class="icons">
+          <a href="#noturno" class="icons toggler">
             <MdBrightness2 />
           </a>
-          <a href="#on-off" class="icons">
+          <a href="#on-off" class="icons toggler">
             <MdOutlineToggleOff />
           </a>
-          <a href="#claro" class="icons">
+          <a href="#claro" class="icons toggler">
             <MdBrightness5 />
           </a>
         </div>

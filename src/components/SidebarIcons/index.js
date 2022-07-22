@@ -8,6 +8,7 @@ import {
   MdOutlineSettings,
   MdAttachMoney,
   MdOutlineConstruction,
+  MdHelpOutline,
 } from "react-icons/md";
 import "./styles.css";
 export const SidebarIcons = () => {
@@ -33,8 +34,11 @@ export const SidebarIcons = () => {
         <a href="#money">
           <MdAttachMoney />
         </a>
-        <a href="#money">
+        <a href="#construct">
           <MdOutlineConstruction />
+        </a>
+        <a href="#help">
+          <MdHelpOutline />
         </a>
       </div>
     </>
