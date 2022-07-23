@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Logo from "./favicon.png";
+import { auth, db } from "../../services/firebase";
 import {
   MdBrightness5,
   MdOutlineVolumeUp,
@@ -8,6 +9,7 @@ import {
   MdConnectWithoutContact,
   MdOutlineToggleOff,
   MdBrightness2,
+  MdPowerSettingsNew,
 } from "react-icons/md";
 
 const NavbarHeader = () => {
@@ -19,6 +21,7 @@ const NavbarHeader = () => {
         </a>
 
         <a href="#news">POLICHAT</a>
+
         <div class="header-right">
           <a href="#button">
             <button class="btn btn-success toggler toggler3" type="submit">
@@ -42,6 +45,11 @@ const NavbarHeader = () => {
           </a>
           <a href="#claro" class="icons toggler">
             <MdBrightness5 />
+          </a>
+          <a class="icons toggler">
+            <MdPowerSettingsNew
+              onClick={() => [auth.signOut(), setUserChat(null)]}
+            />
           </a>
         </div>
       </div>

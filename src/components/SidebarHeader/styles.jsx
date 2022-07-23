@@ -11,27 +11,23 @@ export const Container = styled.div`
   box-shadow: 0 10px 2px #0003;
 `;
 
-export const Avatar = styled.div`
+export const Options = styled.div`
   display: flex;
-  gap: 15px;
+  gap: 5rem;
+  padding: 10px 10px 10px 30px;
 
   svg {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     color: #b9c0c8;
     cursor: pointer;
   }
-`;
-
-export const Options = styled.div`
-  display: flex;
-  gap: 15px;
-  padding: 10px 10px 10px 10px;
-
-  svg {
-    width: 24px;
-    height: 24px;
-    color: #b9c0c8;
-    cursor: pointer;
+  @media screen and (max-width: 500px) {
+    padding: 10px 10px 10px 10px;
+    gap: 10px;
+  }
+  @media screen and (max-width: 700px) {
+    padding: 10px 10px 10px 30px;
+    gap: 10px;
   }
 `;

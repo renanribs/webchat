@@ -44,11 +44,6 @@ const SidebarHeader = ({ setUserChat }) => {
 
   return (
     <C.Container>
-      <C.Avatar>
-        <MdPowerSettingsNew
-          onClick={() => [auth.signOut(), setUserChat(null)]}
-        />
-      </C.Avatar>
       <C.Options>
         <MdForum />
         <MdChat onClick={handleCreateChat} />
