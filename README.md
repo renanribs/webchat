@@ -24,7 +24,7 @@ Projeto de chat criado sendo implementado frontend e backend.
 - Envio/recebimento de mensagens
 #
 ![alt text](https://raw.githubusercontent.com/renanribs/webchat/main/login_.png)
-![alt text](https://raw.githubusercontent.com/renanribs/webchat/main/tela_Final.png)
+![alt text](https://raw.githubusercontent.com/renanribs/webchat/main/telaFinall.png)
 
 ## Executando projeto localmente
 ```sh
