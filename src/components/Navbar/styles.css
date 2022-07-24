@@ -5,6 +5,10 @@
   position: sticky;
 }
 
+.topnav a:hover {
+  background-color: rgb(47, 58, 78);
+}
+
 .topnav a {
   float: left;
   color: #f2f2f2;
