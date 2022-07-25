@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Logo from "./favicon.png";
-import { auth, db } from "../../services/firebase";
+import { auth } from "../../services/firebase";
 import {
   MdBrightness5,
   MdOutlineVolumeUp,
@@ -11,6 +11,8 @@ import {
   MdBrightness2,
   MdPowerSettingsNew,
 } from "react-icons/md";
+
+import { ImWhatsapp } from "react-icons/im";
 
 const NavbarHeader = () => {
   return (
@@ -23,6 +25,19 @@ const NavbarHeader = () => {
         <a href="#news">POLICHAT</a>
 
         <div class="header-right">
+          <a href="#button">
+            <ImWhatsapp id="whatsapp" />
+            <div id="canal">
+              <p>Canal Canal SDR 0001</p>
+              <div>
+                <p id="p-canal" style={{ paddingTop: "1px", color: "#1e9188" }}>
+                  <span style={{ color: "#fdcf58", fontSize: "18px" }}>90</span>
+                  <span style={{ fontSize: "15px" }}>\1000</span> Contatos-dia
+                </p>
+              </div>
+            </div>
+          </a>
+
           <a href="#button">
             <button class="btn btn-success toggler toggler3" type="submit">
               Indique e ganhe
