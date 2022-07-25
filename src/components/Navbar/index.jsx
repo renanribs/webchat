@@ -26,8 +26,8 @@ const NavbarHeader = () => {
 
         <div class="header-right">
           <a href="#button">
-            <ImWhatsapp id="whatsapp" />
-            <div id="canal">
+            <ImWhatsapp id="whatsapp" class="toggler toggler3" />
+            <div id="canal" class="toggler toggler3">
               <p>Canal Canal SDR 0001</p>
               <div>
                 <p id="p-canal" style={{ paddingTop: "1px", color: "#1e9188" }}>
