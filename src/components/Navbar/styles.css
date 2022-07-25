@@ -63,3 +63,21 @@
 .btn-success:hover {
   background-color: rgb(216, 172, 25);
 }
+
+.topnav #whatsapp {
+  width: 2rem;
+  height: 2rem;
+  background-color: #03c38c;
+  border-radius: 50%;
+  align-self: center;
+  margin-right: 6px;
+}
+
+#canal {
+  font-size: 12px;
+}
+
+#p-canal {
+  padding-top: "3px";
+  color: "#1e9199";
+}
